@@ -1,0 +1,25 @@
+{
+  "name": "bloopl",
+  "version": "0.0.1",
+  "description": "A selection of comfortable furniture for the Rabbit Hole",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nomilous/bloopl.git"
+  },
+  "keywords": [
+    "repl"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nomilous/bloopl/issues"
+  },
+  "homepage": "https://github.com/nomilous/bloopl#readme",
+  "dependencies": {
+    "emdee": "0.0.3"
+  }
+}
