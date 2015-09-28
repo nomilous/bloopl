@@ -1,6 +1,6 @@
 {
   "name": "bloopl",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A selection of comfortable furniture for the Rabbit Hole",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,10 @@
   },
   "homepage": "https://github.com/nomilous/bloopl#readme",
   "dependencies": {
-    "emdee": "0.0.3"
+    "async": "^1.4.2",
+    "colors": "^1.1.2",
+    "emdee": "0.0.3",
+    "keypress": "^0.2.1",
+    "wordwrap": "^1.0.0"
   }
 }
