@@ -1,6 +1,6 @@
 {
   "name": "bloopl",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A selection of comfortable furniture for the Rabbit Hole",
   "main": "index.js",
   "scripts": {
@@ -23,6 +23,7 @@
     "async": "^1.4.2",
     "colors": "^1.1.2",
     "emdee": "0.0.3",
+    "fs-extra": "^0.24.0",
     "keypress": "^0.2.1",
     "wordwrap": "^1.0.0"
   }
