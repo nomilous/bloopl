@@ -607,8 +607,8 @@ module.exports.start = function ($happn, opts, commands, callback) {
             prompt: module.exports,
             log: $happn.log,
             help: help,
-            emdee: require('emdee'),
-          }
+            emdee: require('emdee')
+          };
 
           if (typeof action == 'function') {
             action(opts, function (err, action) {

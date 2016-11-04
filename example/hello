@@ -1,0 +1,37 @@
+#!/usr/bin/env node
+
+var bloople = require('../');
+
+var $happn = {
+  log: {
+    warn: function () {},
+    info: function () {}
+  }
+};
+
+var opts = {
+  prefix: '~$ '
+};
+
+var commands = {
+  'hello': {
+    run: function (args, callback) {
+      console.log('running', args);
+      callback(null, 'result');
+    },
+    autoComplete: function(args, callback) {
+      var possible = ['world',
+        'solarsystem',
+        'galaxy',
+        'universe']; // use args to determine next possibilities
+      callback(null, possible);
+    }
+  }
+};
+
+bloople.start($happn, opts, commands, function (e) {
+  if (e) {
+    console.error(e);
+    process.exit(1);
+  }
+});
